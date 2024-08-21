@@ -19,6 +19,9 @@
                         <color key="backgroundColor" systemColor="systemPinkColor"/>
                     </view>
                     <navigationItem key="navigationItem" title="Colors" id="VL2-VF-qC0"/>
+                    <connections>
+                        <segue destination="1Ed-nJ-0gv" kind="show" identifier="ToColorsDetailVC" id="BaA-Kt-fvb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OZJ-2T-H45" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -42,8 +45,27 @@
             </objects>
             <point key="canvasLocation" x="-1408.3969465648854" y="-51.408450704225352"/>
         </scene>
+        <!--Colors DetailVC-->
+        <scene sceneID="GMl-F4-vOd">
+            <objects>
+                <viewController id="1Ed-nJ-0gv" customClass="ColorsDetailVC" customModule="RandomColors" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yg8-hZ-fmq">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="tOR-cB-729"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="bc8-mx-XmY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kyP-zD-kdF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="424" y="-51"/>
+        </scene>
     </scenes>
     <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemPinkColor">
             <color red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
