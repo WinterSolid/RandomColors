@@ -15,8 +15,22 @@
                     <view key="view" contentMode="scaleToFill" id="PLd-7Z-ME9">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ol-AN-0Ax">
+                                <rect key="frame" x="159" y="409" width="75" height="21"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="tempButtonTapped:" destination="77d-G0-BQF" eventType="touchUpInside" id="5UZ-th-tkb"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="f42-cm-koy"/>
                         <color key="backgroundColor" systemColor="systemPinkColor"/>
+                        <constraints>
+                            <constraint firstItem="0ol-AN-0Ax" firstAttribute="centerX" secondItem="PLd-7Z-ME9" secondAttribute="centerX" id="ojE-IO-Frb"/>
+                            <constraint firstItem="0ol-AN-0Ax" firstAttribute="centerY" secondItem="PLd-7Z-ME9" secondAttribute="centerY" id="q2c-yP-fj6"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Colors" id="VL2-VF-qC0"/>
                     <connections>
