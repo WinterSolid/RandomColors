@@ -8,14 +8,26 @@
 import UIKit
 
 class ColorsTableVC: UIViewController{
-   
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+    var colors: [UIColor] = []
+    
+    func addRandomColors() {
+        for _ in 0..<50 {
+            colors.append(createRandomColor())
+        }
+    }
+    func createRandomColor() -> UIColor {
+        let randomColor = UIColor(displayP3Red: CGFloat.random(in: 0...1), 
+                                  green: CGFloat.random(in: 0...1),
+                                  blue: CGFloat.random(in: 0...1),
+                                  alpha: 1)
+       return randomColor
     }
     
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        addRandomColors()
+    }
 }
 // Added extension for cleaner code
 extension ColorsTableVC: UITableViewDelegate,UITableViewDataSource {
