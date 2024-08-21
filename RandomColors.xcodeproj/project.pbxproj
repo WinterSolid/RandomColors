@@ -12,6 +12,7 @@
 		3A2B97692C76602D00ABAC3D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3A2B97682C76602D00ABAC3D /* Base */; };
 		3A2B976B2C76602F00ABAC3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A2B976A2C76602F00ABAC3D /* Assets.xcassets */; };
 		3A2B976E2C76602F00ABAC3D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3A2B976D2C76602F00ABAC3D /* Base */; };
+		3A2B97762C7661ED00ABAC3D /* ColorsTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2B97752C7661ED00ABAC3D /* ColorsTableVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3A2B976A2C76602F00ABAC3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A2B976D2C76602F00ABAC3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A2B976F2C76602F00ABAC3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A2B97752C7661ED00ABAC3D /* ColorsTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsTableVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				3A2B97612C76602D00ABAC3D /* AppDelegate.swift */,
 				3A2B97632C76602D00ABAC3D /* SceneDelegate.swift */,
+				3A2B97752C7661ED00ABAC3D /* ColorsTableVC.swift */,
 				3A2B97672C76602D00ABAC3D /* Main.storyboard */,
 				3A2B976A2C76602F00ABAC3D /* Assets.xcassets */,
 				3A2B976C2C76602F00ABAC3D /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A2B97762C7661ED00ABAC3D /* ColorsTableVC.swift in Sources */,
 				3A2B97622C76602D00ABAC3D /* AppDelegate.swift in Sources */,
 				3A2B97642C76602D00ABAC3D /* SceneDelegate.swift in Sources */,
 			);
