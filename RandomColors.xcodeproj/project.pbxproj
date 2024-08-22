@@ -14,6 +14,7 @@
 		3A2B976E2C76602F00ABAC3D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3A2B976D2C76602F00ABAC3D /* Base */; };
 		3A2B97762C7661ED00ABAC3D /* ColorsTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2B97752C7661ED00ABAC3D /* ColorsTableVC.swift */; };
 		3A2B97782C76673000ABAC3D /* ColorsDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2B97772C76673000ABAC3D /* ColorsDetailVC.swift */; };
+		3A2B977A2C77AF6C00ABAC3D /* UIColor+EXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2B97792C77AF6C00ABAC3D /* UIColor+EXT.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		3A2B976F2C76602F00ABAC3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A2B97752C7661ED00ABAC3D /* ColorsTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsTableVC.swift; sourceTree = "<group>"; };
 		3A2B97772C76673000ABAC3D /* ColorsDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsDetailVC.swift; sourceTree = "<group>"; };
+		3A2B97792C77AF6C00ABAC3D /* UIColor+EXT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+EXT.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				3A2B97612C76602D00ABAC3D /* AppDelegate.swift */,
 				3A2B97632C76602D00ABAC3D /* SceneDelegate.swift */,
 				3A2B97752C7661ED00ABAC3D /* ColorsTableVC.swift */,
+				3A2B97792C77AF6C00ABAC3D /* UIColor+EXT.swift */,
 				3A2B97772C76673000ABAC3D /* ColorsDetailVC.swift */,
 				3A2B97672C76602D00ABAC3D /* Main.storyboard */,
 				3A2B976A2C76602F00ABAC3D /* Assets.xcassets */,
@@ -144,6 +147,7 @@
 				3A2B97762C7661ED00ABAC3D /* ColorsTableVC.swift in Sources */,
 				3A2B97782C76673000ABAC3D /* ColorsDetailVC.swift in Sources */,
 				3A2B97622C76602D00ABAC3D /* AppDelegate.swift in Sources */,
+				3A2B977A2C77AF6C00ABAC3D /* UIColor+EXT.swift in Sources */,
 				3A2B97642C76602D00ABAC3D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
